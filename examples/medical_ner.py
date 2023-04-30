@@ -23,7 +23,7 @@ sentence = """Metformin is a common drug for the management of type 2 diabetes m
                       support that cotreatment with probiotics and metformin is beneficial to patients with type 2 diabetes mellitus."""
 
 
-model = OpenAI(api_key="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",
+model = OpenAI(api_key="",
                model="gpt-3.5-turbo")
 
 prompter = Prompter(model=model,
